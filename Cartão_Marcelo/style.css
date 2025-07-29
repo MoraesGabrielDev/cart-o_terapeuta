@@ -260,14 +260,14 @@ margin-bottom: -80px;
   }
 
   .swiper {
-    width: 400px;
+    width: 380px;
     height: 140px;
     margin: 0 auto;
     margin-top:50px;
     margin-bottom: -20px;
   }
   .slide-rect {
-    width: 300px;
+    width: 220px;
     height: 55px;
     font-size: 9px;
   }
@@ -285,7 +285,7 @@ margin-bottom: -80px;
     font-size: 0.5rem;
   }
   .btn {
-    width: 120px;
+    width: 80px;
     min-width: unset;
   }
 
