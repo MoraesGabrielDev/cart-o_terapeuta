@@ -557,6 +557,71 @@ margin-bottom: -80px;
     width: 100%;
     margin: 0 auto 0 auto;
   }
+    }
+  .profile-logo {
+    flex-direction: column;
+    gap: 0;
+    align-items: flex-start;
+    width: 100%;
+    margin: 0 auto 0 auto;
+  }
+  .profile-img {
+   width: 112%;              /* largura total */
+  height: 350px;            /* altura reduzida conforme necessário */
+  transform: translateX(-90px);
+  margin-top: -8px;
+  object-position: center top; /* foca no topo (cabeça visível) */
+  border-radius: 0;
+  border-bottom: #2B3C29 5px solid;
+  }
+  .logo-section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+  }
+  .logo-img {
+    width: 70%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+  }
+
+   .swiper {
+    width: 370px;
+    height: 160px;
+    margin: 0 auto;
+    margin-top:50px;
+    margin-bottom: -20px;
+    transform: translateX(15px) ;
+  }
+  .slide-rect a{
+    width: 220px;
+    padding: 10px;
+    height: 55px;
+    font-size: 0.8rem;
+  }
+  .swiper-slide {
+    width: 50px;
+    padding: 2px;
+  }
+
+  .buttons-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    margin-bottom: -20px;
+    margin-top: 40px;
+    font-size: 0.5rem;
+  }
+  .btn {
+    width: 80px;
+    min-width: unset;
+    justify-content: center;
+  }
 }
 
 @media (max-width: 375px) {
@@ -705,6 +770,7 @@ margin-bottom: -80px;
     justify-content: center;
   }
 }
+
 
 
 
