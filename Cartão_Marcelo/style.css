@@ -550,6 +550,13 @@ margin-bottom: -80px;
      body {
   overflow-x: hidden;
 }
+  .profile-logo {
+    flex-direction: column;
+    gap: 0;
+    align-items: flex-start;
+    width: 100%;
+    margin: 0 auto 0 auto;
+  }
 }
 
 @media (max-width: 375px) {
@@ -698,6 +705,7 @@ margin-bottom: -80px;
     justify-content: center;
   }
 }
+
 
 
 
