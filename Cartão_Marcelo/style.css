@@ -588,7 +588,7 @@ margin-bottom: -80px;
     display: block;
   }
 
-  .apresentation {
+ .apresentation {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -598,6 +598,7 @@ margin-bottom: -80px;
    padding: 24px 24px 12px 24px;
    border-radius: 16px;
    margin-top: 100px;
+   transform: translate(2px);
 }
 
   .swiper {
@@ -796,6 +797,7 @@ margin-bottom: -80px;
     justify-content: center;
   }
 }
+
 
 
 
