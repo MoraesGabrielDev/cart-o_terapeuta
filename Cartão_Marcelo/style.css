@@ -568,7 +568,7 @@ margin-bottom: -80px;
   .profile-img {
    width: 112%;              /* largura total */
   height: 350px;            /* altura reduzida conforme necessário */
-  transform: translateX(-90px);
+  transform: translateX(-50px);
   margin-top: -8px;
   object-position: center top; /* foca no topo (cabeça visível) */
   border-radius: 0;
@@ -770,6 +770,7 @@ margin-bottom: -80px;
     justify-content: center;
   }
 }
+
 
 
 
